@@ -1,0 +1,127 @@
+body{
+  
+    font-family: "Roboto", sans-serif;
+    background-color: #F5E5E6;
+    color: #333;
+   
+    
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px 20px 50px;
+}
+.signup-button {
+    padding: 10px 20px;
+    background-color: #1453db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+h1{
+    font-size: 55px;
+    color: black;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px #b17575;
+    margin: 20px;
+}
+p{
+    font-size: 16px;
+    color: black;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+.search-section input {
+    padding: 25px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+   
+}
+.search-button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.productCard {
+    background-color: #F4E4E5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+    margin-bottom: 30px;
+   
+}
+.productCard:hover {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+}
+
+.details-button{
+    padding: 12px;
+    background-color: #1453db;
+    color: white;
+    border: 1px solid #1453db;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*footer*/
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+    padding: 80px 30px;
+    max-width: auto;
+    margin: auto;
+    background-color: #E4E0EC;
+    margin-top: 30px;
+}
+.column {
+    text-align: left;
+    line-height: 1.6;
+}
+.column h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
